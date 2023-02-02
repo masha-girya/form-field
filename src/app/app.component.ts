@@ -28,8 +28,5 @@ export class AppComponent {
   ) { }
 
   submit() {
-    console.log(this.reactiveForm.controls['password'].errors);
-    console.log(this.reactiveForm.controls['password'].hasError('lettersNumbersSymbols'))
-    console.log(this.reactiveForm.value);
   }
 }
